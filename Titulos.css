@@ -1,0 +1,53 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../outerspace-6.gif');
+    background-position: center;
+    background-size:cover ;
+}
+
+header, main, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para el título */
+header {
+    background-color: black; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    position: relative; /* Para posicionar elementos relativos a este contenedor */
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+    background-image: linear-gradient(to bottom, skyblue, lightblue); /* Gradiente azul a azul oscuro */
+    -webkit-background-clip: text; /* Permite que el fondo sea visible solo donde hay texto */
+    color: transparent; /* Hace el texto transparente para que muestre el gradiente de fondo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra para dar profundidad */
+}
+
+header h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Agrega estilos adicionales según sea necesario */
+
+footer {
+    background-color: #02152b;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilos del contenido principal */
+
+
+
+/* Agrega estilos específicos para el contenido relacionado con el planetario 3D */
+
+

@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-login {
+    width: 400px;
+    background: #000a23;
+    box-shadow: 7px 13px 37px black;
+    padding: 20px 30px;
+    border-top: 4px solid;
+    color: white;
+    box-sizing: border-box;
+    text-align: center; /* Centro el contenido */
+}
+
+.form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controls {
+    width: 100%;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    text-align: left; /* Alineo el texto a la izquierda */
+}
+
+.controls label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.controls input[type="email"],
+.controls input[type="password"] {
+    width: 100%; /* Hago las cajas de texto del 100% del contenedor */
+    padding: 10px;
+    border: 1px solid gold;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    width: 100%;
+    height: 40px;
+    background: #33ccff;
+    border: none;
+    color: white;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.form-login p {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
